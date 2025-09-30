@@ -1,10 +1,10 @@
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PERROVERDE8.API.Data;
 using PERROVERDE8.API.Models;
 
 namespace PERROVERDE8.API.Controllers;
-
 [ApiController]
 [Route("api/[controller]")]
 public class ProductsController : ControllerBase

@@ -1,7 +1,7 @@
+
 using System.ComponentModel.DataAnnotations;
 
 namespace PERROVERDE8.API.Models;
-
 public class Product
 {
     [Key]
