@@ -6,4 +6,6 @@ namespace PERROVERDE8.API.Data;
 public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
 {
     public DbSet<Product> Products { get; set; }
+    
+    public DbSet<SupportTicket> SupportTickets { get; set; }
 }
